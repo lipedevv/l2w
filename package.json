@@ -1,6 +1,6 @@
 {
   "name": "@lipedevv/l2w",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Simples biblioteca em NPM feita para iniar um servidor web rapidamente.",
   "bin": {
     "l2w": "./bin/cli.js"
