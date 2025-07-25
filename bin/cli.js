@@ -1,5 +1,5 @@
 // cli.js
-// #!/usr/bin/env node
+#!/usr/bin/env node
 
 import pkg from 'enquirer';
 const { Select, Input } = pkg;
