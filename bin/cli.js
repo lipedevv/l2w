@@ -1,4 +1,3 @@
-// cli.js
 #!/usr/bin/env node
 
 import pkg from 'enquirer';

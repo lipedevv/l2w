@@ -1,6 +1,6 @@
 {
   "name": "@lipedevv/l2w",
-  "version": "1.0.17",
+  "version": "1.0.16",
   "description": "Simples biblioteca em NPM feita para iniar um servidor web rapidamente.",
   "bin": {
     "l2w": "./bin/cli.js"
@@ -13,7 +13,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "release": "npm version patch && npm publish"
+    "release": "node scripts/release.js"
   },
   "type": "module",
   "keywords": [
