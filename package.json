@@ -1,9 +1,16 @@
 {
-  "name": "l2w",
+  "name": "@lipedevv/l2w",
   "version": "1.0.15",
   "description": "CLI para desenvolvedores com web server interativo",
   "bin": {
     "l2w": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lipedevv/l2w.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "release": "npm version patch && npm publish"
